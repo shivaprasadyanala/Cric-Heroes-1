@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.artificialturfdirect.com.au/wp-content/uploads/2017/07/iStock-642535368.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Work Sans';
+    letter-spacing: 1px;
+}
+.head{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* .btn-toolbar .btn{
+    margin-left: 50px;
+    margin-right: auto;
+}  */
+
+.form{
+    /* background-color: #48cae4; */
+    background-color: rgba(0,0,0,0.3);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    box-shadow: 4px 4px 4px 1px;
+    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur(1px);
+    border-radius: 15px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    transition:0.5s;
+}
+.form:hover{
+    backdrop-filter: blur(3px);
+    box-shadow: 4px 4px 4px 3px;
+}
+.form-label{
+    color: #fff;
+}

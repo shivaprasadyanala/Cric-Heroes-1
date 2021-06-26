@@ -1,0 +1,210 @@
+#country,
+#state {
+  font-size: 1.6rem;
+}
+.main-box {
+  padding: 7.4rem 0;
+  background-color: aliceblue;
+}
+
+.main-box h1,
+.main-box h2,
+.main-box h3,
+.main-box h4,
+.main-box h5,
+.main-box h6 {
+  letter-spacing: 0;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: 120% !important;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+.main-box a {
+  color: hsl(276, 87%, 33%);
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-box a,
+.main-box .btn {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-left {
+  font-size: 5.2rem;
+  font-family: "PT Sans", sans-serif;
+  border-bottom: 3px solid hsl(40, 14%, 14%);
+  margin-bottom: 0.4em;
+}
+
+.title-left h3 {
+  font-weight: 700;
+  color: hsl(276, 85%, 21%);
+  font-size: 4rem;
+}
+
+.needs-validation label {
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+.needs-validation .form-control {
+  min-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 8px 20px rgba(35, 0, 77, 0.2);
+  font-size: 1.4rem;
+}
+
+.wide.w-100 {
+  min-height: 40px;
+  border: 1px solid #e8e8e8;
+}
+
+.wide.w-100 option {
+  min-height: 40px;
+}
+
+.text-muted {
+  padding: 12px 0;
+  font-size: 1.9rem;
+}
+
+.payment-icon {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.main-box ul,
+.main-box li,
+.main-box ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.payment-icon ul li {
+  width: 20%;
+  float: left;
+}
+
+.rounded {
+  background-color: #f2f2f2;
+}
+.log {
+  background: linear-gradient(to right, rgb(251, 194, 235), rgb(166, 193, 238));
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  padding: 2.2em 0;
+}
+.log-img {
+  padding: 1.5rem 0;
+}
+.log-btn {
+  background-color: hsl(276, 85%, 21%);
+  color: #fff;
+  margin-bottom: 1.8rem;
+  font-size: 1.6rem;
+  padding: 0.5em 0.8em;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: none;
+}
+.log-btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.order-box {
+  margin-top: 1.7rem;
+  font-size: 1.8rem;
+}
+.odr-box a {
+  font-size: 2.3rem;
+  color: #111111;
+  font-weight: 700;
+}
+
+.order-box h4 {
+  font-family: "PT serif" serif;
+  font-weight: 400;
+  padding: 0;
+  line-height: 35px !important;
+}
+.amt {
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  width: 5.8rem;
+  margin: 0.8rem 0;
+  text-align: center;
+}
+
+.gr-total h5 {
+  font-family: "PT serif" serif;
+  font-weight: 700;
+  color: #d33b33;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  line-height: 35px !important;
+}
+
+.gr-total .h5 {
+  font-family: "PT serif" serif;
+  margin: 0;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 2rem;
+}
+
+.shopping-box a {
+  font-family: "PT serif" serif;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 0.5em;
+}
+.shopping-box:hover a {
+  color: black;
+}
+
+.hvr-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  position: relative;
+  background: #d33b33;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 576px) {
+  .log {
+    display: none;
+  }
+}
