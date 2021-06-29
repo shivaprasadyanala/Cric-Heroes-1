@@ -6,7 +6,13 @@
   padding: 7.4rem 0;
   background-color: aliceblue;
 }
-
+.row{
+   justify-content: center;
+}
+.bill-sec{
+  display: flex;
+  justify-content: center;
+}
 .main-box h1,
 .main-box h2,
 .main-box h3,
@@ -102,6 +108,32 @@
   width: 20%;
   float: left;
 }
+#pay-con{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  
+
+}
+.pay-sec{
+  width: 50%;
+  background-color: #e8e8e8;
+  padding: 1%;
+  border-radius: 3%;
+}
+.payment{
+  text-align: center;
+}
+ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-self: flex-end;
+  margin-top: 10px;
+}
+li{
+  margin: 2%;
+}
 
 .rounded {
   background-color: #f2f2f2;
@@ -190,6 +222,8 @@
 .hvr-hover {
   display: inline-block;
   vertical-align: middle;
+  text-decoration: none;
+  border-radius: 5px;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgb(0 0 0 / 0%);
